@@ -14,7 +14,8 @@ pipeline {
                 // Run unit tests using JUnit and integration tests using Selenium
                 echo 'Running unit tests to ensure code functions as expected'
                 echo 'Running integration tests to ensure components work together'
-                // Example: sh 'mvn test'
+                // Example: sh 'mvn test' yes
+
             }
         }
         stage('Code Analysis') {
